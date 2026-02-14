@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bam Suppliers - Premium sanitary ware and professional plumbing services in Dhangadi. Licensed plumbers, quality materials, affordable pricing. Emergency plumbing available.">
+    <meta name="keywords" content="plumbing services Dhangadi, sanitary ware Dhangadi, bathroom fittings, toilet installation, pipe repair, plumber Dhangadi, emergency plumbing">
+    <meta name="author" content="Bam Suppliers">
+    <title>Bam Suppliers - Premium Plumbing & Sanitary Solutions | Dhangadi</title>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Bam Suppliers - Premium Plumbing & Sanitary Solutions">
+    <meta property="og:description" content="Reliable plumbing services and quality sanitary ware in Dhangadi">
+    <meta property="og:type" content="website">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚰</text></svg>">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "PlumbingService",
+      "name": "Bam Suppliers",
+      "image": "",
+      "description": "Premium sanitary ware and professional plumbing services in Dhangadi",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Dhangadi",
+        "addressCountry": "NP"
+      },
+      "telephone": "+977 9745599575",
+      "email": "bambipin567@gmail.com",
+      "priceRange": "$$",
+      "areaServed": "Dhangadi",
+      "serviceType": ["Plumbing Services", "Bathroom Installation", "Pipe Repair", "Emergency Plumbing", "Sanitary Ware Supply"]
+    }
+    </script>
+</head>
+<body>
+    <!-- Header -->
+    <header id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo" onclick="showPage('home')">
+                    <div class="logo-icon">🚰</div>
+                    <span>Bam Suppliers</span>
+                </a>
+                
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#" class="active" onclick="showPage('home')">Home</a></li>
+                        <li><a href="#" onclick="showPage('services')">Services</a></li>
+                        <li><a href="#" onclick="showPage('products')">Products</a></li>
+                        <li><a href="#" onclick="showPage('about')">About</a></li>
+                        <li><a href="#" onclick="showPage('contact')">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Home Page -->
+    <div id="home" class="page active">
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Reliable Plumbing & Premium Sanitary Solutions</h1>
+                        <p>Professional plumbing services and quality sanitary ware in Dhangadi. Licensed plumbers, fast response, and affordable pricing you can trust.</p>
+                        <div class="hero-buttons">
+                            <a href="#" class="btn btn-primary" onclick="showPage('contact')">Request a Quote</a>
+                            <a href="tel:+9779745599575" class="btn btn-secondary">📞 Call Now</a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <div class="hero-image-content">
+                            <div class="hero-feature">
+                                <div class="hero-feature-icon">⚡</div>
+                                <h4>24/7 Emergency</h4>
+                                <p>Available</p>
+                            </div>
+                            <div class="hero-feature">
+                                <div class="hero-feature-icon">✓</div>
+                                <h4>Licensed</h4>
+                                <p>Professionals</p>
+                            </div>
+                            <div class="hero-feature">
+                                <div class="hero-feature-icon">💰</div>
+                                <h4>Affordable</h4>
+                                <p>Pricing</p>
+                            </div>
+                            <div class="hero-feature">
+                                <div class="hero-feature-icon">⭐</div>
+                                <h4>Quality</h4>
+                                <p>Materials</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Key Services -->
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Our Services</span>
+                    <h2>Complete Plumbing Solutions</h2>
+                    <p>From installation to repair, we handle all your plumbing needs with expertise and care.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🚽</div>
+                        <h3>Bathroom Installations</h3>
+                        <p>Complete bathroom fitting solutions including toilets, sinks, showers, and accessories.</p>
+                        <a href="#" class="btn btn-secondary" onclick="showPage('services')">Learn More →</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>Pipe Repair & Maintenance</h3>
+                        <p>Expert pipe leakage repair, drain cleaning, and preventive maintenance services.</p>
+                        <a href="#" class="btn btn-secondary" onclick="showPage('services')">Learn More →</a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">💧</div>
+                        <h3>Water Tank Installation</h3>
+                        <p>Professional water tank installation and plumbing system setup for homes and businesses.</p>
+                        <a href="#" class="btn btn-secondary" onclick="showPage('services')">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section style="background: var(--light-grey);">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Why Choose Us</span>
+                    <h2>Your Trusted Plumbing Partner</h2>
+                    <p>We combine experience, quality, and affordability to deliver exceptional service.</p>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">🏆</div>
+                        <h3>Licensed Plumbers</h3>
+                        <p>Certified and experienced professionals ensuring quality workmanship on every job.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Fast Response</h3>
+                        <p>Quick emergency response and efficient service to minimize your inconvenience.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💎</div>
+                        <h3>Quality Materials</h3>
+                        <p>Premium sanitary ware and plumbing materials from trusted brands.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💰</div>
+                        <h3>Affordable Pricing</h3>
+                        <p>Transparent pricing with no hidden costs. Quality service that fits your budget.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Testimonials</span>
+                    <h2>What Our Clients Say</h2>
+                    <p>Read about the experiences of our satisfied customers.</p>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Bam Suppliers did an excellent job installing my new bathroom. The team was professional, punctual, and the quality of work was outstanding. Highly recommended!</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">RK</div>
+                            <div class="author-info">
+                                <h4>Rajesh Kumar</h4>
+                                <p>Dhangadi</p>
+                                <div class="rating">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Fast and reliable service! They fixed my pipe leakage within hours of my call. Very affordable rates and quality materials. Will definitely use their services again.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">SP</div>
+                            <div class="author-info">
+                                <h4>Sita Poudel</h4>
+                                <p>Dhangadi</p>
+                                <div class="rating">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <p class="testimonial-text">Great experience from start to finish. The sanitary ware they provided was top quality and installation was perfect. Professional team that truly cares about customer satisfaction.</p>
+                        <div class="testimonial-author">
+                            <div class="author-avatar">AK</div>
+                            <div class="author-info">
+                                <h4>Anil Khadka</h4>
+                                <p>Dhangadi</p>
+                                <div class="rating">⭐⭐⭐⭐⭐</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="contact-section">
+            <div class="container">
+                <div class="section-header">
+                    <span class="section-label">Get In Touch</span>
+                    <h2>Request a Quote</h2>
+                    <p>Tell us about your plumbing needs and we'll get back to you promptly.</p>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm" onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Needed</label>
+                            <select id="service" name="service">
+                                <option value="">Select a service</option>
+                                <option value="bathroom">Bathroom Installation</option>
+                                <option value="repair">Pipe Repair</option>
+                                <option value="drain">Drain Cleaning</option>
+                                <option value="tank">Water Tank Installation</option>
+                                <option value="maintenance">Maintenance</option>
+                                <option value="emergency">Emergency Service</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" style="width: 100%;">Send Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Services Page -->
+    <div id="services" class="page">
+        <div class="page-hero">
+            <div class="container">
+                <h1>Our Services</h1>
+                <div class="breadcrumb">
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <span>/</span>
+                    <span>Services</span>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <h2>Complete Plumbing Solutions</h2>
+                    <p>Professional services for all your plumbing and sanitary needs</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🚿</div>
+                        <h3>Bathroom Fittings Installation</h3>
+                        <p>Complete bathroom installation services including all fixtures and fittings.</p>
+                        <ul>
+                            <li>Shower systems installation</li>
+                            <li>Bathtub setup and plumbing</li>
+                            <li>Bathroom accessories mounting</li>
+                            <li>Water heater installation</li>
+                            <li>Ventilation systems</li>
+                        </ul>
+                        <a href="tel:+9779745599575" class="btn btn-primary">Call for Quote</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🚽</div>
+                        <h3>Toilet & Sink Installation</h3>
+                        <p>Expert installation of toilets, sinks, and wash basins with proper plumbing.</p>
+                        <ul>
+                            <li>Western toilet installation</li>
+                            <li>Indian toilet setup</li>
+                            <li>Wash basin installation</li>
+                            <li>Sink plumbing and drainage</li>
+                            <li>Faucet and tap installation</li>
+                        </ul>
+                        <a href="tel:+9779745599575" class="btn btn-primary">Call for Quote</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🔧</div>
+                        <h3>Pipe Leakage Repair</h3>
+                        <p>Fast and effective repair of all types of pipe leakages and water damage.</p>
+                        <ul>
+                            <li>Leak detection and diagnosis</li>
+                            <li>Pipe repair and replacement</li>
+                            <li>Joint sealing and fixing</li>
+                            <li>Water pressure issues</li>
+                            <li>Emergency leak repairs</li>
+                        </ul>
+                        <a href="tel:+9779745599575" class="btn btn-primary">Call for Quote</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🌊</div>
+                        <h3>Drain Cleaning</h3>
+                        <p>Professional drain cleaning and unclogging services for smooth water flow.</p>
+                        <ul>
+                            <li>Kitchen drain cleaning</li>
+                            <li>Bathroom drain unclogging</li>
+                            <li>Sewer line cleaning</li>
+                            <li>Grease trap cleaning</li>
+                            <li>Preventive maintenance</li>
+                        </ul>
+                        <a href="tel:+9779745599575" class="btn btn-primary">Call for Quote</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">💧</div>
+                        <h3>Water Tank Installation</h3>
+                        <p>Complete water tank installation with proper plumbing and support systems.</p>
+                        <ul>
+                            <li>Tank sizing and placement</li>
+                            <li>Overhead tank installation</li>
+                            <li>Underground tank setup</li>
+                            <li>Pump installation</li>
+                            <li>Pipeline connections</li>
+                        </ul>
+                        <a href="tel:+9779745599575" class="btn btn-primary">Call for Quote</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🔍</div>
+                        <h3>Plumbing Maintenance</h3>
+                        <p>Regular maintenance services to prevent issues and extend system life.</p>
+                        <ul>
+                            <li>Annual plumbing inspection</li>
+                            <li>Preventive maintenance</li>
+                            <li>System optimization</li>
+                            <li>Fixture cleaning and servicing</li>
+                            <li>Water quality testing</li>
+                        </ul>
+                        <a href="tel:+9779745599575" class="btn btn-primary">Call for Quote</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">⚡</div>
+                        <h3>Emergency Plumbing Services</h3>
+                        <p>24/7 emergency response for urgent plumbing issues and water emergencies.</p>
+                        <ul>
+                            <li>24/7 availability</li>
+                            <li>Burst pipe repairs</li>
+                            <li>Severe leak emergencies</li>
+                            <li>Flooding issues</li>
+                            <li>Rapid response team</li>
+                        </ul>
+                        <a href="tel:+9779745599575" class="btn btn-primary">Call Now</a>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🏗️</div>
+                        <h3>New Construction Plumbing</h3>
+                        <p>Complete plumbing solutions for new buildings and renovation projects.</p>
+                        <ul>
+                            <li>Plumbing system design</li>
+                            <li>Complete installation</li>
+                            <li>Material procurement</li>
+                            <li>Quality assurance</li>
+                            <li>Post-installation support</li>
+                        </ul>
+                        <a href="tel:+9779745599575" class="btn btn-primary">Call for Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Products Page -->
+    <div id="products" class="page">
+        <div class="page-hero">
+            <div class="container">
+                <h1>Sanitary Ware Products</h1>
+                <div class="breadcrumb">
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <span>/</span>
+                    <span>Products</span>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <h2>Premium Quality Sanitary Products</h2>
+                    <p>Browse our collection of high-quality bathroom fixtures and accessories</p>
+                </div>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <div class="product-image">🚿</div>
+                        <div class="product-info">
+                            <h3>Premium Showers</h3>
+                            <p>High-quality shower systems including rain showers, hand showers, and complete shower panels with modern designs.</p>
+                            <a href="https://wa.me/9779745599575?text=I'm%20interested%20in%20Premium%20Showers" class="btn btn-primary">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">🚰</div>
+                        <div class="product-info">
+                            <h3>Wash Basins</h3>
+                            <p>Stylish wash basins in various designs - counter top, wall mounted, and pedestal basins in ceramic and other premium materials.</p>
+                            <a href="https://wa.me/9779745599575?text=I'm%20interested%20in%20Wash%20Basins" class="btn btn-primary">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">🚽</div>
+                        <div class="product-info">
+                            <h3>Western Toilets</h3>
+                            <p>Modern western-style toilets with water-saving features, comfortable seating, and easy-clean designs from trusted brands.</p>
+                            <a href="https://wa.me/9779745599575?text=I'm%20interested%20in%20Western%20Toilets" class="btn btn-primary">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">🚿</div>
+                        <div class="product-info">
+                            <h3>Indian Toilets</h3>
+                            <p>Durable and hygienic Indian-style toilets with anti-bacterial coating and proper drainage systems.</p>
+                            <a href="https://wa.me/9779745599575?text=I'm%20interested%20in%20Indian%20Toilets" class="btn btn-primary">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">💧</div>
+                        <div class="product-info">
+                            <h3>Taps & Faucets</h3>
+                            <p>Wide range of taps and faucets - basin mixers, kitchen taps, and specialty faucets in chrome, brass, and other finishes.</p>
+                            <a href="https://wa.me/9779745599575?text=I'm%20interested%20in%20Taps%20and%20Faucets" class="btn btn-primary">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">🧴</div>
+                        <div class="product-info">
+                            <h3>Bathroom Accessories</h3>
+                            <p>Complete range of bathroom accessories including soap dispensers, towel bars, tissue holders, and storage solutions.</p>
+                            <a href="https://wa.me/9779745599575?text=I'm%20interested%20in%20Bathroom%20Accessories" class="btn btn-primary">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">🛁</div>
+                        <div class="product-info">
+                            <h3>Bathtubs</h3>
+                            <p>Luxury bathtubs in various sizes and styles - freestanding, built-in, and whirlpool options for ultimate relaxation.</p>
+                            <a href="https://wa.me/9779745599575?text=I'm%20interested%20in%20Bathtubs" class="btn btn-primary">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">🪞</div>
+                        <div class="product-info">
+                            <h3>Bathroom Mirrors</h3>
+                            <p>Elegant bathroom mirrors with and without LED lighting, anti-fog features, and decorative frames.</p>
+                            <a href="https://wa.me/9779745599575?text=I'm%20interested%20in%20Bathroom%20Mirrors" class="btn btn-primary">Enquire Now</a>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="product-image">🔥</div>
+                        <div class="product-info">
+                            <h3>Water Heaters</h3>
+                            <p>Energy-efficient water heaters - instant, storage, and solar options to suit your needs and budget.</p>
+                            <a href="https://wa.me/9779745599575?text=I'm%20interested%20in%20Water%20Heaters" class="btn btn-primary">Enquire Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- About Page -->
+    <div id="about" class="page">
+        <div class="page-hero">
+            <div class="container">
+                <h1>About Bam Suppliers</h1>
+                <div class="breadcrumb">
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <span>/</span>
+                    <span>About</span>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-image">
+                        🏢
+                    </div>
+                    <div>
+                        <span class="section-label">Who We Are</span>
+                        <h2>Your Trusted Plumbing Partner in Dhangadi</h2>
+                        <p style="margin-bottom: 1.5rem;">Bam Suppliers is a leading provider of professional plumbing services and premium sanitary ware in Dhangadi. We combine years of experience, skilled craftsmanship, and quality materials to deliver exceptional results for our clients.</p>
+                        <p style="margin-bottom: 1.5rem;">Our team of licensed plumbers is dedicated to providing reliable, efficient, and affordable solutions for all your plumbing needs. Whether it's a simple repair or a complete bathroom installation, we treat every project with the same level of care and professionalism.</p>
+                        <p>We believe in building lasting relationships with our clients through honest service, transparent pricing, and quality workmanship that stands the test of time.</p>
+                    </div>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Projects Completed</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Customer Satisfaction</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">24/7</div>
+                        <div class="stat-label">Emergency Service</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">10+</div>
+                        <div class="stat-label">Years Experience</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section style="background: var(--light-grey);">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Mission & Vision</h2>
+                </div>
+                <div class="about-content">
+                    <div>
+                        <h3 style="margin-bottom: 1rem;">🎯 Our Mission</h3>
+                        <p>To provide reliable, high-quality plumbing services and premium sanitary solutions that enhance the comfort and hygiene of homes and businesses in Dhangadi. We are committed to excellence, integrity, and customer satisfaction in everything we do.</p>
+                    </div>
+                    <div>
+                        <h3 style="margin-bottom: 1rem;">👁️ Our Vision</h3>
+                        <p>To be the most trusted name in plumbing and sanitary ware in Dhangadi, known for our professionalism, quality workmanship, and customer-first approach. We aim to set new standards in the industry through continuous improvement and innovation.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <h2>Why Choose Bam Suppliers</h2>
+                </div>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon">✅</div>
+                        <h3>Licensed & Certified</h3>
+                        <p>All our plumbers are licensed professionals with proper certifications and extensive training.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🛡️</div>
+                        <h3>Quality Guarantee</h3>
+                        <p>We stand behind our work with warranties and guarantees on both services and products.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">💯</div>
+                        <h3>Transparent Pricing</h3>
+                        <p>Clear, upfront pricing with no hidden charges. You know exactly what you're paying for.</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon">🤝</div>
+                        <h3>Customer First</h3>
+                        <p>Your satisfaction is our priority. We listen, understand, and deliver solutions that work for you.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Contact Page -->
+    <div id="contact" class="page">
+        <div class="page-hero">
+            <div class="container">
+                <h1>Contact Us</h1>
+                <div class="breadcrumb">
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <span>/</span>
+                    <span>Contact</span>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="container">
+                <div class="section-header">
+                    <h2>Get In Touch With Us</h2>
+                    <p>We're here to help with all your plumbing and sanitary needs</p>
+                </div>
+
+                <div class="map-container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3515.9726728774547!2d80.58773!3d28.69851!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39a1eb5ef67e8111%3A0x9c5f6e8a5c8e5f5f!2sDhangadhi!5e0!3m2!1sen!2snp!4v1234567890123!5m2!1sen!2snp" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📍</div>
+                            <div class="contact-item-text">
+                                <h4>Location</h4>
+                                <p>Dhangadi, Nepal</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📞</div>
+                            <div class="contact-item-text">
+                                <h4>Phone</h4>
+                                <a href="tel:+9779745599575">+977 9745599575</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">💬</div>
+                            <div class="contact-item-text">
+                                <h4>WhatsApp</h4>
+                                <a href="https://wa.me/9779745599575">+977 9745599575</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">✉️</div>
+                            <div class="contact-item-text">
+                                <h4>Email</h4>
+                                <a href="mailto:bambipin567@gmail.com">bambipin567@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-item-icon">🕐</div>
+                            <div class="contact-item-text">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Saturday: 7:00 AM - 7:00 PM<br>
+                                Sunday: 8:00 AM - 5:00 PM<br>
+                                <strong>24/7 Emergency Service Available</strong></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form">
+                        <h3 style="margin-bottom: 1.5rem;">Send Us a Message</h3>
+                        <form id="contactFormPage" onsubmit="handleSubmit(event)">
+                            <div class="form-group">
+                                <label for="name2">Full Name *</label>
+                                <input type="text" id="name2" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phone2">Phone Number *</label>
+                                <input type="tel" id="phone2" name="phone" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email2">Email</label>
+                                <input type="email" id="email2" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="service2">Service Needed</label>
+                                <select id="service2" name="service">
+                                    <option value="">Select a service</option>
+                                    <option value="bathroom">Bathroom Installation</option>
+                                    <option value="repair">Pipe Repair</option>
+                                    <option value="drain">Drain Cleaning</option>
+                                    <option value="tank">Water Tank Installation</option>
+                                    <option value="maintenance">Maintenance</option>
+                                    <option value="emergency">Emergency Service</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message2">Message *</label>
+                                <textarea id="message2" name="message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Bam Suppliers</h3>
+                    <p>Your trusted partner for professional plumbing services and premium sanitary ware in Dhangadi.</p>
+                    <div class="social-links">
+                        <a href="https://wa.me/9779745599575" class="social-link">📱</a>
+                        <a href="mailto:bambipin567@gmail.com" class="social-link">✉️</a>
+                        <a href="tel:+9779745599575" class="social-link">📞</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <a href="#" onclick="showPage('home')">Home</a>
+                    <a href="#" onclick="showPage('services')">Services</a>
+                    <a href="#" onclick="showPage('products')">Products</a>
+                    <a href="#" onclick="showPage('about')">About Us</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <a href="#" onclick="showPage('services')">Bathroom Installation</a>
+                    <a href="#" onclick="showPage('services')">Pipe Repair</a>
+                    <a href="#" onclick="showPage('services')">Drain Cleaning</a>
+                    <a href="#" onclick="showPage('services')">Emergency Plumbing</a>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📍 Dhangadi, Nepal</p>
+                    <a href="tel:+9779745599575">📞 +977 9745599575</a>
+                    <a href="mailto:bambipin567@gmail.com">✉️ bambipin567@gmail.com</a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Bam Suppliers. All rights reserved. | Designed for Excellence in Plumbing Services</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/9779745599575?text=Hello!%20I%20need%20plumbing%20services" class="whatsapp-float" target="_blank" aria-label="Contact on WhatsApp">
+        💬
+    </a>
+
+    <!-- External JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
